@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5eee6;
+    color: #3e2723;
+}
+
+.navbar {
+    height: 75px;
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3e2723;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.back-home {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.back-home:hover {
+    color: #d4a762;
+}
+
+.latte-hero {
+    min-height: 600px;
+    padding: 70px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    background: linear-gradient(135deg, #6f4e37, #c8a27a);
+}
+
+.hero-text {
+    width: 45%;
+    color: white;
+}
+
+.small-title {
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: #fff0c9;
+    margin-bottom: 20px;
+}
+
+.hero-text h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.hero-text>p:not(.small-title) {
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.details {
+    padding: 80px 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.info-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
+
+.info-box:hover {
+    transform: translateY(-8px);
+}
+
+.info-box h2 {
+    margin-bottom: 18px;
+    color: #6f4e37;
+}
+
+.info-box p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.back-section {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border: 2px solid #6f4e37;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #6f4e37;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background: #6f4e37;
+    color: white;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    background: #3e2723;
+    color: white;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}   
